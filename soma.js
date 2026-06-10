@@ -3,3 +3,4 @@ return a + b;
 
 }
 console.log(soma(3,5));
+module.exports = soma;

@@ -10,3 +10,7 @@
   
  let resultadoMultiplicar = calculadora.multiplicar (40, 2); 
   console.log (resultadoMultiplicar)
+
+
+
+  

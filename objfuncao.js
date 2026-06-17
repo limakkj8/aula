@@ -1,6 +1,9 @@
-const aluno = { nome: "Felipe", idade: 18, estado: "Piaui", cidade: "Piripiri", genero: "Masculino", }
- console.log(aluno.nome); 
- console.log(aluno.idade);
-  console.log(aluno.estado); 
-  console.log(aluno.cidade); 
-  console.log(aluno.genero);
+const calculadora = { numero1 : 20, numero2 : 5, multiplicar () { return this.numero1 * this.numero2 }, 
+dividir () { return this.numero1 / this.numero2 }, 
+subtrair () { return this.numero1 - this.numero2 }, 
+somar () { return this.numero1 + this.numero2 } 
+} 
+console.log(calculadora.multiplicar()); 
+console.log(calculadora.dividir());
+ console.log(calculadora.subtrair()); 
+ console.log(calculadora.somar());
